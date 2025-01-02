@@ -1,0 +1,16 @@
+package com.Selenium4xPractice.SeleniumBasics;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LocatorsConcept {
+    public static void main(String[] args) throws InterruptedException {
+
+        FirefoxDriver driver =new FirefoxDriver();
+        driver.get(" https://katalon-demo-cura.herokuapp.com");
+        driver.findElement(By.id("btn-make-appointment")).click();
+        Thread.sleep(5000);
+        System.out.println(driver.getCurrentUrl());
+
+    }
+}
