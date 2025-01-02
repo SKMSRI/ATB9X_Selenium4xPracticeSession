@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="31 Jan">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/TestWebDriver01.java" afterDir="false" />
+    <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="02 Jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium4xPractice/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/LocatorsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/LocatorsConcept.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LocatorsConcept.executor": "Run",
+    "Application.TestWebDriver01.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +55,20 @@
     "last_opened_file_path": "C:/Users/SAURABH/IdeaProjects/ATB9X_Selenium4xPracticeSession"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LocatorsConcept">
+    <configuration name="LocatorsConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.LocatorsConcept" />
+      <module name="ATB9X_Selenium4xPracticeSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestWebDriver01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.TestWebDriver01" />
       <module name="ATB9X_Selenium4xPracticeSession" />
@@ -73,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocatorsConcept" />
         <item itemvalue="Application.TestWebDriver01" />
       </list>
     </recent_temporary>
@@ -94,11 +106,56 @@
       <option name="project" value="LOCAL" />
       <updated>1735647465599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="01 Jan">
+      <option name="closed" value="true" />
+      <created>1735741889874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735741889875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="01 Jan">
+      <option name="closed" value="true" />
+      <created>1735741977678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735741977678</updated>
+    </task>
+    <task id="LOCAL-00004" summary="02 Jan">
+      <option name="closed" value="true" />
+      <created>1735827133788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735827133788</updated>
+    </task>
+    <task id="LOCAL-00005" summary="02 Jan">
+      <option name="closed" value="true" />
+      <created>1735829023487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735829023487</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="31 Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="31 Jan" />
+    <MESSAGE value="01 Jan" />
+    <MESSAGE value="02 Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="02 Jan" />
   </component>
 </project>
