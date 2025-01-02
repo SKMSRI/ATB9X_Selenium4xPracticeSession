@@ -12,5 +12,9 @@ public class LocatorsConcept {
         Thread.sleep(5000);
         System.out.println(driver.getCurrentUrl());
 
+        driver.findElement(By.id("txt-username")).sendKeys("John Doe");
+        driver.findElement(By.id("txt-password")).sendKeys("ThisIsNotAPassword");
+        driver.findElement(By.id("btn-login")).click();
+
     }
 }
