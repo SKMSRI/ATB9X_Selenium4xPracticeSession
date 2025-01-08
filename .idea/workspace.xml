@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="02 Jan">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Seleniumxpath/Xpath.java" afterDir="false" />
+    <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="08 Jan">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Seleniumxpath/DynamicXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Waits/ExplictWiats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Waits/FluentWaits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Waits/ImplicitWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/LocatorsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Locators/LocatorsConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/TestWebDriver01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Locators/TestWebDriver01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2qytuhl7AsY0ln28HDa1xVpEVJy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -173,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735829717077</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="08 Jan">
+      <option name="closed" value="true" />
+      <created>1736346011244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736346011245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +201,7 @@
     <MESSAGE value="31 Jan" />
     <MESSAGE value="01 Jan" />
     <MESSAGE value="02 Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="02 Jan" />
+    <MESSAGE value="08 Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="08 Jan" />
   </component>
 </project>
