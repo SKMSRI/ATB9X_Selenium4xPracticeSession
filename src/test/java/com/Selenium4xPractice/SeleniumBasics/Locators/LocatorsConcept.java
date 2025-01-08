@@ -1,4 +1,4 @@
-package com.Selenium4xPractice.SeleniumBasics;
+package com.Selenium4xPractice.SeleniumBasics.Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;

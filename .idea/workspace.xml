@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="02 Jan">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Seleniumxpath/Xpath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/LocatorsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/LocatorsConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/LocatorsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Locators/LocatorsConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/TestWebDriver01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Locators/TestWebDriver01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SKMSRI"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SKMSRI&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SKMSRI/ATB9X_Selenium4xPracticeSession.git",
-    "accountId": "db16b9f1-5638-4b20-8201-3189ebb6ddf5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SKMSRI/ATB9X_Selenium4xPracticeSession.git&quot;,
+    &quot;accountId&quot;: &quot;db16b9f1-5638-4b20-8201-3189ebb6ddf5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -48,20 +51,22 @@
   "keyToString": {
     "Application.LocatorsConcept.executor": "Run",
     "Application.TestWebDriver01.executor": "Run",
+    "Application.Xpath.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/SAURABH/IdeaProjects/ATB9X_Selenium4xPracticeSession"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LocatorsConcept">
+  <component name="RunManager" selected="Application.Xpath">
     <configuration name="LocatorsConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.LocatorsConcept" />
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Locators.LocatorsConcept" />
       <module name="ATB9X_Selenium4xPracticeSession" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.*" />
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.Locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,11 +75,24 @@
       </method>
     </configuration>
     <configuration name="TestWebDriver01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.TestWebDriver01" />
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Locators.TestWebDriver01" />
       <module name="ATB9X_Selenium4xPracticeSession" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.*" />
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.Locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.Xpath" />
+      <module name="ATB9X_Selenium4xPracticeSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Xpath" />
         <item itemvalue="Application.LocatorsConcept" />
         <item itemvalue="Application.TestWebDriver01" />
       </list>
@@ -138,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735829023487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="02 Jan">
+      <option name="closed" value="true" />
+      <created>1735829609202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735829609202</updated>
+    </task>
+    <task id="LOCAL-00007" summary="02 Jan">
+      <option name="closed" value="true" />
+      <created>1735829717076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735829717077</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
