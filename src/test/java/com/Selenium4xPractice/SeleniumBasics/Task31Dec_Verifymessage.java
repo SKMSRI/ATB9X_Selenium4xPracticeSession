@@ -1,7 +1,9 @@
 package com.Selenium4xPractice.SeleniumBasics;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 
 public class Task31Dec_Verifymessage {
 
@@ -19,8 +21,9 @@ public class Task31Dec_Verifymessage {
         //Verify that the free trial message is visible.
         //need to visible text "Your free trial has expired" //
 
-        //driver.findElement(By.class("id-card-title"));
-        //System.out.println(Isdisplayed: "Your free trial has expired");
+        // h5[@class="id-card-title"]
+         WebElement error_message_free_trial = driver.findElement(By.xpath("//h5[@class='id-card-title']"));
+        Assert.assertEquals(error_message_free_trial.getText(),"Your free trial has expired");
 
     }
 
