@@ -6,7 +6,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DynamicXpath {
     public static void main(String[] args) throws InterruptedException {
 
-        FirefoxDriver driver =new FirefoxDriver();
+        //Core Logic - //tagName[@attribute='value']
+
+        FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://practicesoftwaretesting.com");
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
