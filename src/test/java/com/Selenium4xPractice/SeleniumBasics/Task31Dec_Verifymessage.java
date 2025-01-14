@@ -2,6 +2,7 @@ package com.Selenium4xPractice.SeleniumBasics;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
@@ -9,7 +10,7 @@ public class Task31Dec_Verifymessage {
 
     public static void main(String[] args) throws InterruptedException {
 
-        FirefoxDriver driver =new FirefoxDriver();
+        EdgeDriver driver =new EdgeDriver();
         driver.get("https://www.idrive360.com/enterprise/login");
         driver.manage().window().maximize();
         Thread.sleep(5000);
