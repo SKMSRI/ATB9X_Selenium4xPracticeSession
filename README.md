@@ -1,2 +1,2 @@
 Selenium Practice
-only Practice makes the thnings perfect
+only Practice makes the thnings perfects
