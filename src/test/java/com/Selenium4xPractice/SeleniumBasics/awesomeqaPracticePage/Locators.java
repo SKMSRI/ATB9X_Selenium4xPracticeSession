@@ -2,6 +2,7 @@ package com.Selenium4xPractice.SeleniumBasics.awesomeqaPracticePage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class Locators {
 
@@ -27,6 +28,15 @@ public class Locators {
         driver.findElement(By.xpath("//input[contains(@value,'Automation Tester')]")).click();
         driver.findElement(By.xpath("//input[contains(@value,'Selenium Webdriver')]")).click();
 
+        //Selct dropdown by selct method
+        Select continents = new Select(driver.findElement(By.id("continents")));
+        //continents.selectByVisibleText("Australia");
+        continents.selectByIndex(3);
+
+        //Select value by scrooll bropdown
+        Select selenium_commands = new Select(driver.findElement(By.id("selenium_commands")));
+        selenium_commands.selectByIndex(3);
+        selenium_commands.selectByContainsVisibleText("Switch Commands");
 
 
 
