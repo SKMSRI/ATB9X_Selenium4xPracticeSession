@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="29 Jan">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Locators/uploadfile.java" afterDir="false" />
+    <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="03-feb">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Task_03Jan_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Task_03Jan_printtablerecords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/awesomeqaPracticePage/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/awesomeqaPracticePage/Locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +51,13 @@
   "keyToString": {
     "Application.Locators.executor": "Run",
     "Application.LocatorsConcept.executor": "Run",
+    "Application.PrintTable.executor": "Run",
     "Application.Task31Dec_Verifymessage.executor": "Run",
+    "Application.Task_03Jan_WebTables.executor": "Run",
+    "Application.Task_03Jan_printtablerecords.executor": "Run",
+    "Application.Test1.executor": "Run",
     "Application.TestWebDriver01.executor": "Run",
+    "Application.TypesofXpath.executor": "Run",
     "Application.Xpath.executor": "Run",
     "Application.XpathAxes.executor": "Run",
     "Application.uploadfile.executor": "Run",
@@ -64,13 +69,13 @@
     "last_opened_file_path": "C:/Users/SAURABH/IdeaProjects/ATB9X_Selenium4xPracticeSession"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.uploadfile">
-    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.awesomeqaPracticePage.Locators" />
+  <component name="RunManager" selected="Application.TestWebDriver01">
+    <configuration name="PrintTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.WebTables.PrintTable" />
       <module name="ATB9X_Selenium4xPracticeSession" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.awesomeqaPracticePage.*" />
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.WebTables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task31Dec_Verifymessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Task31Dec_Verifymessage" />
+    <configuration name="Task_03Jan_WebTables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Task_03Jan_WebTables" />
       <module name="ATB9X_Selenium4xPracticeSession" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.Xpath" />
+    <configuration name="Task_03Jan_printtablerecords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Task_03Jan_printtablerecords" />
       <module name="ATB9X_Selenium4xPracticeSession" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.*" />
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,21 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XpathAxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.XpathAxes" />
-      <module name="ATB9X_Selenium4xPracticeSession" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uploadfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Locators.uploadfile" />
+    <configuration name="TestWebDriver01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Locators.TestWebDriver01" />
       <module name="ATB9X_Selenium4xPracticeSession" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypesofXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.TypesofXpath" />
+      <module name="ATB9X_Selenium4xPracticeSession" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Selenium4xPractice.SeleniumBasics.Seleniumxpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.uploadfile" />
-        <item itemvalue="Application.Locators" />
-        <item itemvalue="Application.Task31Dec_Verifymessage" />
-        <item itemvalue="Application.XpathAxes" />
-        <item itemvalue="Application.Xpath" />
+        <item itemvalue="Application.TestWebDriver01" />
+        <item itemvalue="Application.TypesofXpath" />
+        <item itemvalue="Application.Task_03Jan_WebTables" />
+        <item itemvalue="Application.Task_03Jan_printtablerecords" />
+        <item itemvalue="Application.PrintTable" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738155989606</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="03-feb">
+      <option name="closed" value="true" />
+      <created>1738544598182</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738544598182</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,6 +320,7 @@
     <MESSAGE value="13 Jan" />
     <MESSAGE value="20 Jan" />
     <MESSAGE value="29 Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="29 Jan" />
+    <MESSAGE value="03-feb" />
+    <option name="LAST_COMMIT_MESSAGE" value="03-feb" />
   </component>
 </project>
