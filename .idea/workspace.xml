@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a7954bb-fc33-405d-a6d1-885e6ec481bb" name="Changes" comment="03-feb">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Task_03Jan_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Task_03Jan_printtablerecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium4xPractice/SeleniumBasics/Locators/DateSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -298,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738544598182</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="03-feb">
+      <option name="closed" value="true" />
+      <created>1738627695388</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738627695389</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
