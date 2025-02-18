@@ -17,5 +17,12 @@ public class SimpleDatePicker {
         driver.findElement(By.xpath("//input[@id='datepicker']")).click();
 
 
+
+
+
+
+
+
+
     }
 }
