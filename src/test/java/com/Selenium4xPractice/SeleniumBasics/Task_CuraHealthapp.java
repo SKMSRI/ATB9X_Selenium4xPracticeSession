@@ -35,7 +35,5 @@ public class Task_CuraHealthapp {
         driver.findElement(By.xpath("//input[contains(@id, 'radio_program_medicaid')]")).click();
 
         //DatePick_Testcase5
-
-
     }
 }
